@@ -32,3 +32,6 @@ class TestTennisScore(TestCase):
 
     def test_deuce_4_vs_4(self):
         self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 4, 4), "Deuce")
+
+    def test_first_player_adv(self):
+        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 4, 3), "Eric Advance")
