@@ -14,4 +14,3 @@ class TestTennisScore(TestCase):
 
     def test_love_forty(self):
         self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 0, 3), "Love Forty")
-

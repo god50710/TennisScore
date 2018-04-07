@@ -5,5 +5,7 @@ class TennisScore:
             return "Love Fifteen"
         elif player_2_score == 2:
             return "Love Thirty"
+        elif player_2_score == 3:
+            return "Love Forty"
         else:
             return "Love All"
