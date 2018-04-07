@@ -1,4 +1,4 @@
-SCORE_LIST = ["All", "Fifteen", "Thirty", "Forty"]
+SCORE_LIST = ["Love", "Fifteen", "Thirty", "Forty"]
 
 
 class TennisScore:
