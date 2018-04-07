@@ -1,46 +1,48 @@
 from unittest import TestCase
+
+from Game import Game
 from TennisScore import TennisScore
 
 
 class TestTennisScore(TestCase):
     def test_love_all(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 0, 0), "Love All")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 0, 0)), "Love All")
 
     def test_love_fifteen(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 0, 1), "Love Fifteen")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 0, 1)), "Love Fifteen")
 
     def test_love_thirty(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 0, 2), "Love Thirty")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 0, 2)), "Love Thirty")
 
     def test_love_forty(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 0, 3), "Love Forty")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 0, 3)), "Love Forty")
 
     def test_fifteen_love(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 1, 0), "Fifteen Love")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 1, 0)), "Fifteen Love")
 
     def test_thirty_love(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 2, 0), "Thirty Love")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 2, 0)), "Thirty Love")
 
     def test_fifteen_all(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 1, 1), "Fifteen All")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 1, 1)), "Fifteen All")
 
     def test_thirty_all(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 2, 2), "Thirty All")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 2, 2)), "Thirty All")
 
     def test_deuce_3_vs_3(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 3, 3), "Deuce")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 3, 3)), "Deuce")
 
     def test_deuce_4_vs_4(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 4, 4), "Deuce")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 4, 4)), "Deuce")
 
     def test_first_player_adv(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 4, 3), "Eric Advance")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 4, 3)), "Eric Advance")
 
     def test_second_player_adv(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 3, 4), "Maru Advance")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 3, 4)), "Maru Advance")
 
     def test_second_player_win_with_5_point(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 3, 5), "Maru Win")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 3, 5)), "Maru Win")
 
     def test_first_player_win_with_6_point(self):
-        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 6, 4), "Eric Win")
+        self.assertEqual(TennisScore.tennis_judge(Game("Eric", "Maru", 6, 4)), "Eric Win")
