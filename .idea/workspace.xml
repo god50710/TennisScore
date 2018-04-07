@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b06e4d87-cbac-4fb7-b7a2-f3807538c493" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/TennisScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/TennisScore.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_tennisScore.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_tennisScore.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,20 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TennisScore.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TennisScore.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TennisScore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+            <state relative-caret-position="399">
+              <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_tennisScore.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_tennisScore.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_tennisScore.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="458">
+              <caret line="44" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -49,8 +50,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_tennisScore.py" />
         <option value="$PROJECT_DIR$/TennisScore.py" />
+        <option value="$PROJECT_DIR$/test_tennisScore.py" />
       </list>
     </option>
   </component>
@@ -131,18 +132,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 18h 07m 24s.xml">
-      <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 18h 08m 21s.xml">
-      <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 18h 09m 23s.xml">
-      <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 18h 10m 50s.xml">
-      <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 18h 11m 03s.xml">
       <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
     </history-entry>
@@ -159,6 +148,18 @@
       <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 19h 59m 22s.xml">
+      <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 20h 01m 08s.xml">
+      <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 20h 04m 34s.xml">
+      <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 20h 05m 39s.xml">
+      <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_tennisScore_py - 2018.04.07 at 20h 05m 43s.xml">
       <configuration name="Unittests in test_tennisScore.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -194,20 +195,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_tennisScore.py">
+    <entry file="file://$PROJECT_DIR$/TennisScore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="399">
+          <caret line="19" column="54" lean-forward="true" selection-start-line="19" selection-start-column="54" selection-end-line="19" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TennisScore.py">
+    <entry file="file://$PROJECT_DIR$/test_tennisScore.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="50" lean-forward="true" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        <state relative-caret-position="458">
+          <caret line="44" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="44" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
