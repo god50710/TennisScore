@@ -7,4 +7,4 @@ class TennisScore:
         if player_1_score != player_2_score:
             return SCORE_LIST[player_1_score] + " " + SCORE_LIST[player_2_score]
         else:
-            return "Love All"
+            return SCORE_LIST[player_1_score] + " All"
