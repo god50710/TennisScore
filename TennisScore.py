@@ -8,7 +8,10 @@ class TennisScore:
             if player_1_score > player_2_score and player_1_score > 3:
                 return player_1_name + " Advance"
             elif player_2_score > player_1_score and player_2_score > 3:
-                return player_2_name + " Advance"
+                if player_2_score - player_1_score > 1:
+                    return player_2_name + " Win"
+                else:
+                    return player_2_name + " Advance"
             else:
                 return SCORE_LIST[player_1_score] + " " + SCORE_LIST[player_2_score]
         elif player_1_score >= 3:
