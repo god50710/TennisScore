@@ -23,3 +23,6 @@ class TestTennisScore(TestCase):
 
     def test_fifteen_all(self):
         self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 1, 1), "Fifteen All")
+
+    def test_thirty_all(self):
+        self.assertEqual(TennisScore.tennis_judge("Eric", "Maru", 2, 2), "Thirty All")
